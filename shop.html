@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>JK Cosmetics Shop</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        
+         <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="img/logo.jpg">
+
+    
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+       
+       
+           <!-- Navbar start -->
+        <div class="container-fluid sticky-top px-0">
+            <div class="container-fluid topbar d-none d-lg-block">
+                <div class="container px-0">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8">
+                             <div class="d-flex flex-wrap">
+                                <a href="#" class="me-4 text-light"><i class="fas fa-map-marker-alt text-primary me-2"></i> Thaddatheru junction, Jaffna.</a>
+                                <a href="#" class="me-4 text-light"><i class="fas fa-phone-alt text-primary me-2"></i> +94 12 345 6789</a>
+                                <a href="#" class="text-light"><i class="fas fa-envelope text-primary me-2"></i>info@WEBbuilders.lk</a>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-center justify-content-end">
+                               <p class="text-white"> <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-facebook-f"></i></a> </p>
+                              <p class="text-white"><a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-twitter"></i></a></p>
+                              <p class="text-white"> <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-instagram"></i></a> </p>
+                              <p class="text-white"><a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-light">
+                <div class="container px-0">
+                    <nav class="navbar navbar-light navbar-expand-xl">
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="text-primary display-4">JK Cosmetics Shop</h1>
+                        </a>
+                        <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="fa fa-bars text-primary"></span>
+                        </button>
+                        <div class="collapse navbar-collapse bg-light py-3" id="navbarCollapse">
+                            <div class="navbar-nav mx-auto border-top">
+                              
+                                  <a href="index.html" class="nav-item nav-link">Home</a>
+
+                                  <a href="shop.html" class="nav-item nav-link active ">Shop</a>
+                               
+                                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                            </div>
+                             
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+
+        
+
+        
+      <div class="products-grid">
+      <div class="product-card">
+        <img src="img/fou1.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Foundation </div>
+        <div class="product-price">Rs. 100</div>
+      </div>
+       <div class="product-card">
+        <img src="img/fou4.png" class="img-fluid" alt="Image">
+        <div class="product-title">Foundation 75ml</div>
+        <div class="product-price">Rs. 1100</div>
+      </div>
+       <div class="product-card">
+        <img src="img/fou5.png" class="img-fluid" alt="Image">
+        <div class="product-title">Foundation 75ml</div>
+        <div class="product-price">Rs. 1000</div>
+      </div>
+       <div class="product-card">
+        <img src="img/fou7.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Foundation 100ml</div>
+        <div class="product-price">Rs. 1200</div>
+      </div>
+       <div class="product-card">
+        <img src="img/fou8.png" class="img-fluid" alt="Image">
+        <div class="product-title">Foundation 10ml</div>
+        <div class="product-price">Rs. 200</div>
+      </div>
+      <div class="product-card">
+        <img src="img/conc4.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Foundation 50ml</div>
+        <div class="product-price">Rs. 500</div>
+      </div>
+       <div class="product-card">
+        <img src="img/blu9.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Blush </div>
+        <div class="product-price">Rs. 800</div>
+      </div>
+       <div class="product-card">
+        <img src="img/blu4.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Blush </div>
+        <div class="product-price">Rs. 900</div>
+      </div>
+       <div class="product-card">
+        <img src="img/blu6.avif" class="img-fluid" alt="Image">
+        <div class="product-title">Blush </div>
+        <div class="product-price">Rs. 900</div>
+      </div>
+      
+      <div class="product-card">
+        <img src="img/conc9.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Concealer 40ml</div>
+        <div class="product-price">Rs. 300</div>
+      </div>
+      <div class="product-card">
+        <img src="img/conc2.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Concealer 40ml</div>
+        <div class="product-price">Rs. 500</div>
+      </div>
+      <div class="product-card">
+        <img src="img/conc3.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Concealer 40ml</div>
+        <div class="product-price">Rs. 450</div>
+      </div>
+       <div class="product-card">
+        <img src="img/conc6.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Concealer </div>
+        <div class="product-price">Rs. 300</div>
+      </div>
+       <div class="product-card">
+        <img src="img/conc5.avif" class="img-fluid" alt="Image">
+        <div class="product-title">Concealer 40ml</div>
+        <div class="product-price">Rs. 350</div>
+      </div>
+      <div class="product-card">
+        <img src="img/liner1.jpeg" class="img-fluid" alt="Image">
+        <div class="product-title">Eyeliner 10ml</div>
+        <div class="product-price">Rs.200</div>
+      </div>
+      <div class="product-card">
+        <img src="img/liner2.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Eyeliner 10ml</div>
+        <div class="product-price">Rs. 200</div>
+      </div>
+       <div class="product-card">
+        <img src="img/liner3.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Eyeliner 10ml</div>
+        <div class="product-price">Rs.25 0</div>
+      </div>
+       <div class="product-card">
+        <img src="img/liner4.png" class="img-fluid" alt="Image">
+        <div class="product-title">Eyeliner 10ml</div>
+        <div class="product-price">Rs. 250</div>
+      </div>
+        <div class="product-card">
+        <img src="img/lipglo1.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Lip Gloss 20ml</div>
+        <div class="product-price">Rs. 300</div>
+      </div> <div class="product-card">
+        <img src="img/lipglo2.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Lip Gloss 20ml</div>
+        <div class="product-price">Rs. 300</div>
+      </div>
+       <div class="product-card">
+        <img src="img/lipglo9.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Lip Gloss 20ml</div>
+        <div class="product-price">Rs. 300</div>
+      </div> 
+      <div class="product-card">
+        <img src="img/lipbam1.jpeg" class="img-fluid" alt="Image">
+        <div class="product-title">Lip Balm </div>
+        <div class="product-price">Rs. 100</div>
+       </div>
+      <div class="product-card">
+        <img src="img/lipbam10.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Lip Balm  </div>
+        <div class="product-price">Rs. 100</div>
+      </div>
+      <div class="product-card">
+        <img src="img/lipplum1.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Lip Plumper 300ml</div>
+        <div class="product-price">Rs. 20</div>
+      </div>
+      <div class="product-card">
+        <img src="img/lipplum2.png" class="img-fluid" alt="Image">
+        <div class="product-title">Lip Plumper 300ml</div>
+        <div class="product-price">Rs. 20</div>
+      </div>
+      <div class="product-card">
+        <img src="img/mas1.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Mascara 10ml</div>
+        <div class="product-price">Rs. 350</div>
+      </div>
+      <div class="product-card">
+        <img src="img/mas5.jpeg" class="img-fluid" alt="Image">
+        <div class="product-title">Mascara 10ml</div>
+        <div class="product-price">Rs. 400</div>
+      </div>
+      <div class="product-card">
+        <img src="img/mas4.jpeg" class="img-fluid" alt="Image">
+        <div class="product-title">Mascara 10ml</div>
+        <div class="product-price">Rs. 300</div>
+      </div>
+      <div class="product-card">
+        <img src="img/toner3.avif" class="img-fluid" alt="Image">
+        <div class="product-title">Toner 200ml</div>
+        <div class="product-price">Rs. 500</div>
+      </div>
+      <div class="product-card">
+        <img src="img/toner4.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Toner 200ml</div>
+        <div class="product-price">Rs. 500</div>
+      </div>
+      <div class="product-card">
+        <img src="img/toner5.png" class="img-fluid" alt="Image">
+        <div class="product-title">Toner 150ml</div>
+        <div class="product-price">Rs. 700</div>
+      </div>
+      <div class="product-card">
+        <img src="img/sun1.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Sunscreen 40ml</div>
+        <div class="product-price">Rs. 1000</div>
+      </div>
+      <div class="product-card">
+        <img src="img/sun4.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Sunscreen 125ml</div>
+        <div class="product-price">Rs. 1500</div>
+      </div>
+      <div class="product-card">
+        <img src="img/sun3.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Sunscreen 75ml</div>
+        <div class="product-price">Rs. 1100</div>
+      </div>
+      
+      <div class="product-card">
+        <img src="img/shadow1.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Eyeshadows </div>
+        <div class="product-price">Rs. 1500</div>
+      </div>
+      <div class="product-card">
+        <img src="img/shadow3.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Eyeshadows</div>
+        <div class="product-price">Rs. 1200</div>
+      </div>
+      <div class="product-card">
+        <img src="img/shadow4.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Eyeshadows</div>
+        <div class="product-price">Rs. 1450</div>
+      </div>
+      <div class="product-card">
+        <img src="img/shadow6.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Eyeshadows</div>
+        <div class="product-price">Rs. 1000</div>
+      </div>
+      <div class="product-card">
+        <img src="img/serum2.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Serum 60ml</div>
+        <div class="product-price">Rs. 2000</div>
+      </div>
+      <div class="product-card">
+        <img src="img/serum3.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Serum 50ml</div>
+        <div class="product-price">Rs. 2000</div>
+      </div>
+      <div class="product-card">
+        <img src="img/serum5.jpg" class="img-fluid" alt="Image">
+        <div class="product-title">Serum 50ml</div>
+        <div class="product-price">Rs. 2000</div>
+      </div>
+      <div class="product-card">
+        <img src="img/serum4.webp" class="img-fluid" alt="Image">
+        <div class="product-title">Serum 60ml</div>
+        <div class="product-price">Rs. 22000</div>
+      </div>
+    </div>
+ 
+
+
+         <!-- Footer Start -->
+        <div class="container-fluid footer py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                             <img src="img/jk3.jpg" class="img-fluid" alt="Image">
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Quick Links</h4>
+                            <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a> 
+                            <a href="shop.html"><i class="fas fa-angle-right me-2"></i> Shop</a> 
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a> 
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Contact</h4> 
+                            <p class="text-white"><i class="fas fa-envelope"></i>   info@WEBbuilders.lk</p>
+                            <p class="text-white"><i class="fa fa-phone-alt"></i>   +94 12 345 6789</p>
+                            <p class=" text-white"> <i class="fas fa-map-marker-alt"></i>  Thaddatheru junction, Jaffna.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                          <h4 class="mb-4 text-white">Follow us</h4> 
+                           
+                        <div class="d-flex">
+                          
+                          <p class="text-white"> <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-facebook-f"></i></a> </p>
+                            <p class="text-white"><a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-twitter"></i></a></p>
+                           <p class="text-white"> <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-instagram"></i></a> </p>
+                           <p class="text-white"><a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a> </p>
+                         </div>
+                   </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                        <div class="col-md-4 text-center text-md-start mb-md-0">
+                         </div>
+                     <div class="col-md-4 text-center text-md-end text-white">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>JK Cosmetics Shop</a></span>
+                   
+                        Designed By <a class="border-bottom" href="https://webbuilder.lk/">webbuilder.lk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
